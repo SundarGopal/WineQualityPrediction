@@ -1,27 +1,27 @@
 # WineQualityPrediction
-White wine quality prediction using Machine learning algorithms
-********************************* This is the README txt for running the Jupyter script******************************************************
-Requirements:
-	Jupyter notebook 
-		or
-	Colab Google 
-		or
+White wine quality prediction using Machine learning algorithms <br />
+********************************* This is the README txt for running the Jupyter script****************************************************** <br />
+Requirements: <br />
+	Jupyter notebook <br />
+		or <br />
+	Colab Google <br />
+		or  <br />
 	Kaggle
-		or
-	Any IDE like Atom or Visual Studio Code with ipython kernel installed and enabled jupyter server. (We developed this code using VS code)
+		or    <br />
+	Any IDE like Atom or Visual Studio Code with ipython kernel installed and enabled jupyter server. (We developed this code using VS code) <br />
 
-Basic Details:
+Basic Details: <br />
 
-The file name is Wine_Quality_Score.ipynb. (1MB)
-Most of the library modules included are already available in scikit, pandas or numpy.
-There are two additional modules installed namely seaborn and statsmodel. If you haven't installed it, You can install it by running the command
-"pip install <module>" in your shell and then try again.
+The file name is Wine_Quality_Score.ipynb. (1MB) <br />
+Most of the library modules included are already available in scikit, pandas or numpy. <br />
+There are two additional modules installed namely seaborn and statsmodel. If you haven't installed it, You can install it by running the command <br />
+"pip install <module>" in your shell and then try again. <br />
 
-#Detailed information of the each cell is given in the comment lines of the cell in the .ipynb file.
+#Detailed information of the each cell is given in the comment lines of the cell in the .ipynb file. <br />
 
-The steps given below is a brief walkthrough of what the code executes sequentially.
-1. Importing the dataset from the file 'winequality-white.csv' and create a dataframe.
-2. Seperate the Feature labels and output label separately into X and Y dataframes.
+The steps given below is a brief walkthrough of what the code executes sequentially. <br />
+1. Importing the dataset from the file 'winequality-white.csv' and create a dataframe. <br />
+2. Seperate the Feature labels and output label separately into X and Y dataframes.  <br />
 3. Next, we use the SelectKBest feature selection technique from sklearn to identify the k best features given by its algorithm.We have used both chi
 test and f-values as score functions.
 4. After that, We use the ExtratreesClassifier from sklearn to plot the feature importances of individual features.
