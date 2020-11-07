@@ -45,6 +45,6 @@ it to avoid a biased classification.
 label values for a given data.
 15. We use training data to train our data and testing data to test our data. And accuracy score for each classifier model is calculated to find the deviations
 from the actual value by comparing the predicted and actual values.
-16. Accuracy score and confusion matrix for each classifier model is displayed right after their individual function cell in the code. 
-17.Classification report and ROC curve for each of the classifier model for different y labels have been displayed in the output terminal to understand the 
+16. Accuracy score and confusion matrix for each classifier model is displayed right after their individual function cell in the code. <br />
+17.Classification report and ROC curve for each of the classifier model for different y labels have been displayed in the output terminal to understand the <br />
 statistical parameters.
